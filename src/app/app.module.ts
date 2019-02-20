@@ -52,8 +52,7 @@ import {CourseResolver} from "./services/course.resolver";
     ],
     providers: [
         CoursesService,
-        CourseResolver
-    ],
+        CourseResolver    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -48,7 +48,7 @@ export class CoursesService {
                 .set('pageNumber', pageNumber.toString())
                 .set('pageSize', pageSize.toString())
         }).pipe(
-            map(res =>  res["payload"])
+            map(res =>  res["payload"] )
         );
     }
 
